@@ -9,7 +9,7 @@ country: "de"      # lowercase two-letter ISO country code such as "fr" (see htt
 language: "de"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
 latitude: "50.681039"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "10.940010"       # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "12.11.2024"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humandate: "12.11.2024 & 03.12.2024"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "10:00 - 16:00"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
 startdate: 2024-11-12      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2024-12-03        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
@@ -126,6 +126,9 @@ workshop is only open to people from a particular institution.
 {% elsif site.carpentry == "lc" %}
 {% include lc/who.html %}
 {% endif %}
+<p>
+The course os aimed at graduate students and researchers of the TU Ilmenau. You don't need to have any previous knowledge of git. You can attend both dates independently from each other. The first day focus on the local using of git while the second presents the online usage of git for collaborative work.
+<p>
 
 {% comment %}
 LOCATION
