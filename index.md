@@ -124,7 +124,7 @@ Explain who your audience is.  (In particular, tell readers if the
 workshop is only open to people from a particular institution.
 {% endcomment %}
 <p>
-<strong>Who:</strong> The course is aimed at graduate students and researchers of the TU Ilmenau. You don't need to have any previous knowledge of git. You don't have to attend both parts if you're for exapmle only interested in one. However, for the second part (03.012.) you need basic knowledge of git as taught in the first part (12.11).
+<strong>Who:</strong> The course is aimed at graduate students and researchers of the TU Ilmenau. You don't need to have any previous knowledge of git. You don't have to attend both parts if you're for exapmle only interested in one. However, for the second part (03.12.) you need basic knowledge of git as taught in the first part (12.11).
 </p>
 
 {% comment %}
