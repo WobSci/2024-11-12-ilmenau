@@ -90,6 +90,10 @@ the pitch.
 {% endcomment %}
 
 <p>
+This workshop is a mix & match workshop based on the Software Carpentry lesson <a href="https://swcarpentry.github.io/git-novice/">Version Control with Git</a> and uses the gitlab infrastructure of the TU Ilmenau.
+</p>
+
+<p>
 <strong><a href="https://carpentries.org">The Carpentries</a></strong> project comprises the <a
 href="{{site.swc_site}}">Software Carpentry</a>, <a href="{{site.dc_site}}">Data Carpentry</a>, and
 <a href="{{site.lc_site}}">Library Carpentry</a> communities of Instructors, Trainers, Maintainers,
@@ -119,16 +123,9 @@ AUDIENCE
 Explain who your audience is.  (In particular, tell readers if the
 workshop is only open to people from a particular institution.
 {% endcomment %}
-{% if site.carpentry == "swc" %}
-{% include swc/who.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/who.html %}
-{% elsif site.carpentry == "lc" %}
-{% include lc/who.html %}
-{% endif %}
 <p>
-The course os aimed at graduate students and researchers of the TU Ilmenau. You don't need to have any previous knowledge of git. You can attend both dates independently from each other. The first day focus on the local using of git while the second presents the online usage of git for collaborative work.
-<p>
+The course is aimed at graduate students and researchers of the TU Ilmenau. You don't need to have any previous knowledge of git. You don't have to attend both parts if you're for exapmle only interested in one. However, for the second part (03.012.) you need basic knowledge of git as taught in the first part (12.11).
+</p>
 
 {% comment %}
 LOCATION
